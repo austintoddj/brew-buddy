@@ -3,50 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		2AEC27E21ECBFBCD001D533A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC27E11ECBFBCD001D533A /* AppDelegate.swift */; };
-		2AEC27E41ECBFBCD001D533A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC27E31ECBFBCD001D533A /* ViewController.swift */; };
-		2AEC27E71ECBFBCD001D533A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC27E51ECBFBCD001D533A /* Main.storyboard */; };
-		2AEC27E91ECBFBCD001D533A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC27E81ECBFBCD001D533A /* Assets.xcassets */; };
-		2AEC27EC1ECBFBCD001D533A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEC27EA1ECBFBCD001D533A /* LaunchScreen.storyboard */; };
-		2AEC27F71ECBFBCD001D533A /* BrewBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC27F61ECBFBCD001D533A /* BrewBuddyTests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		2AEC27F31ECBFBCD001D533A /* PBXContainerItemProxy */ = {
+		AA0000010000000000000001 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2AEC27D61ECBFBCD001D533A /* Project object */;
+			containerPortal = AA0000010000000000000010 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2AEC27DD1ECBFBCD001D533A;
+			remoteGlobalIDString = AA0000010000000000000020;
 			remoteInfo = BrewBuddy;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2AEC27DE1ECBFBCD001D533A /* BrewBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AEC27E11ECBFBCD001D533A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AEC27E31ECBFBCD001D533A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2AEC27E61ECBFBCD001D533A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2AEC27E81ECBFBCD001D533A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2AEC27EB1ECBFBCD001D533A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2AEC27ED1ECBFBCD001D533A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AEC27F21ECBFBCD001D533A /* BrewBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AEC27F61ECBFBCD001D533A /* BrewBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewBuddyTests.swift; sourceTree = "<group>"; };
-		2AEC27F81ECBFBCD001D533A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000010000000000000030 /* BrewBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000010000000000000031 /* BrewBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA0000010000000000000042 /* Exceptions for "BrewBuddy" folder in "BrewBuddy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AA0000010000000000000020 /* BrewBuddy */;
+		};
+		AA0000010000000000000043 /* Exceptions for "BrewBuddyTests" folder in "BrewBuddyTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AA0000010000000000000021 /* BrewBuddyTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA0000010000000000000040 /* BrewBuddy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA0000010000000000000042 /* Exceptions for "BrewBuddy" folder in "BrewBuddy" target */,
+			);
+			path = BrewBuddy;
+			sourceTree = "<group>";
+		};
+		AA0000010000000000000041 /* BrewBuddyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA0000010000000000000043 /* Exceptions for "BrewBuddyTests" folder in "BrewBuddyTests" target */,
+			);
+			path = BrewBuddyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		2AEC27DB1ECBFBCD001D533A /* Frameworks */ = {
+		AA0000010000000000000050 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AEC27EF1ECBFBCD001D533A /* Frameworks */ = {
+		AA0000010000000000000051 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,138 +75,121 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AEC27D51ECBFBCD001D533A = {
+		AA0000010000000000000060 = {
 			isa = PBXGroup;
 			children = (
-				2AEC27E01ECBFBCD001D533A /* BrewBuddy */,
-				2AEC27F51ECBFBCD001D533A /* BrewBuddyTests */,
-				2AEC27DF1ECBFBCD001D533A /* Products */,
+				AA0000010000000000000040 /* BrewBuddy */,
+				AA0000010000000000000041 /* BrewBuddyTests */,
+				AA0000010000000000000061 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2AEC27DF1ECBFBCD001D533A /* Products */ = {
+		AA0000010000000000000061 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AEC27DE1ECBFBCD001D533A /* BrewBuddy.app */,
-				2AEC27F21ECBFBCD001D533A /* BrewBuddyTests.xctest */,
+				AA0000010000000000000030 /* BrewBuddy.app */,
+				AA0000010000000000000031 /* BrewBuddyTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2AEC27E01ECBFBCD001D533A /* BrewBuddy */ = {
-			isa = PBXGroup;
-			children = (
-				2AEC27E11ECBFBCD001D533A /* AppDelegate.swift */,
-				2AEC27E31ECBFBCD001D533A /* ViewController.swift */,
-				2AEC27E51ECBFBCD001D533A /* Main.storyboard */,
-				2AEC27E81ECBFBCD001D533A /* Assets.xcassets */,
-				2AEC27EA1ECBFBCD001D533A /* LaunchScreen.storyboard */,
-				2AEC27ED1ECBFBCD001D533A /* Info.plist */,
-			);
-			path = BrewBuddy;
-			sourceTree = "<group>";
-		};
-		2AEC27F51ECBFBCD001D533A /* BrewBuddyTests */ = {
-			isa = PBXGroup;
-			children = (
-				2AEC27F61ECBFBCD001D533A /* BrewBuddyTests.swift */,
-				2AEC27F81ECBFBCD001D533A /* Info.plist */,
-			);
-			path = BrewBuddyTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AEC27DD1ECBFBCD001D533A /* BrewBuddy */ = {
+		AA0000010000000000000020 /* BrewBuddy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AEC27FB1ECBFBCD001D533A /* Build configuration list for PBXNativeTarget "BrewBuddy" */;
+			buildConfigurationList = AA0000010000000000000080 /* Build configuration list for PBXNativeTarget "BrewBuddy" */;
 			buildPhases = (
-				2AEC27DA1ECBFBCD001D533A /* Sources */,
-				2AEC27DB1ECBFBCD001D533A /* Frameworks */,
-				2AEC27DC1ECBFBCD001D533A /* Resources */,
+				AA0000010000000000000070 /* Sources */,
+				AA0000010000000000000050 /* Frameworks */,
+				AA0000010000000000000071 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA0000010000000000000040 /* BrewBuddy */,
 			);
 			name = BrewBuddy;
+			packageProductDependencies = (
+			);
 			productName = BrewBuddy;
-			productReference = 2AEC27DE1ECBFBCD001D533A /* BrewBuddy.app */;
+			productReference = AA0000010000000000000030 /* BrewBuddy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2AEC27F11ECBFBCD001D533A /* BrewBuddyTests */ = {
+		AA0000010000000000000021 /* BrewBuddyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AEC27FE1ECBFBCD001D533A /* Build configuration list for PBXNativeTarget "BrewBuddyTests" */;
+			buildConfigurationList = AA0000010000000000000081 /* Build configuration list for PBXNativeTarget "BrewBuddyTests" */;
 			buildPhases = (
-				2AEC27EE1ECBFBCD001D533A /* Sources */,
-				2AEC27EF1ECBFBCD001D533A /* Frameworks */,
-				2AEC27F01ECBFBCD001D533A /* Resources */,
+				AA0000010000000000000072 /* Sources */,
+				AA0000010000000000000051 /* Frameworks */,
+				AA0000010000000000000073 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2AEC27F41ECBFBCD001D533A /* PBXTargetDependency */,
+				AA0000010000000000000090 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA0000010000000000000041 /* BrewBuddyTests */,
 			);
 			name = BrewBuddyTests;
+			packageProductDependencies = (
+			);
 			productName = BrewBuddyTests;
-			productReference = 2AEC27F21ECBFBCD001D533A /* BrewBuddyTests.xctest */;
+			productReference = AA0000010000000000000031 /* BrewBuddyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2AEC27D61ECBFBCD001D533A /* Project object */ = {
+		AA0000010000000000000010 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
 				ORGANIZATIONNAME = "Todd Austin";
 				TargetAttributes = {
-					2AEC27DD1ECBFBCD001D533A = {
-						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
+					AA0000010000000000000020 = {
+						CreatedOnToolsVersion = 26.0;
 					};
-					2AEC27F11ECBFBCD001D533A = {
-						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2AEC27DD1ECBFBCD001D533A;
+					AA0000010000000000000021 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = AA0000010000000000000020;
 					};
 				};
 			};
-			buildConfigurationList = 2AEC27D91ECBFBCD001D533A /* Build configuration list for PBXProject "BrewBuddy" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = AA0000010000000000000082 /* Build configuration list for PBXProject "BrewBuddy" */;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 2AEC27D51ECBFBCD001D533A;
-			productRefGroup = 2AEC27DF1ECBFBCD001D533A /* Products */;
+			mainGroup = AA0000010000000000000060;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA0000010000000000000061 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AEC27DD1ECBFBCD001D533A /* BrewBuddy */,
-				2AEC27F11ECBFBCD001D533A /* BrewBuddyTests */,
+				AA0000010000000000000020 /* BrewBuddy */,
+				AA0000010000000000000021 /* BrewBuddyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2AEC27DC1ECBFBCD001D533A /* Resources */ = {
+		AA0000010000000000000071 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AEC27EC1ECBFBCD001D533A /* LaunchScreen.storyboard in Resources */,
-				2AEC27E91ECBFBCD001D533A /* Assets.xcassets in Resources */,
-				2AEC27E71ECBFBCD001D533A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AEC27F01ECBFBCD001D533A /* Resources */ = {
+		AA0000010000000000000073 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,67 +199,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2AEC27DA1ECBFBCD001D533A /* Sources */ = {
+		AA0000010000000000000070 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AEC27E41ECBFBCD001D533A /* ViewController.swift in Sources */,
-				2AEC27E21ECBFBCD001D533A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AEC27EE1ECBFBCD001D533A /* Sources */ = {
+		AA0000010000000000000072 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AEC27F71ECBFBCD001D533A /* BrewBuddyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2AEC27F41ECBFBCD001D533A /* PBXTargetDependency */ = {
+		AA0000010000000000000090 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2AEC27DD1ECBFBCD001D533A /* BrewBuddy */;
-			targetProxy = 2AEC27F31ECBFBCD001D533A /* PBXContainerItemProxy */;
+			target = AA0000010000000000000020 /* BrewBuddy */;
+			targetProxy = AA0000010000000000000001 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		2AEC27E51ECBFBCD001D533A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2AEC27E61ECBFBCD001D533A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2AEC27EA1ECBFBCD001D533A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2AEC27EB1ECBFBCD001D533A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		2AEC27F91ECBFBCD001D533A /* Debug */ = {
+		AA00000100000000000000A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -265,19 +247,22 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -291,30 +276,33 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2AEC27FA1ECBFBCD001D533A /* Release */ = {
+		AA00000100000000000000A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -322,19 +310,22 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -342,102 +333,147 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2AEC27FC1ECBFBCD001D533A /* Debug */ = {
+		AA00000100000000000000B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BrewBuddy/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_KEY_CFBundleDisplayName = BrewBuddy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.austintoddj.BrewBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2AEC27FD1ECBFBCD001D533A /* Release */ = {
+		AA00000100000000000000B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BrewBuddy/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_KEY_CFBundleDisplayName = BrewBuddy;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.austintoddj.BrewBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		2AEC27FF1ECBFBCD001D533A /* Debug */ = {
+		AA00000100000000000000C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BrewBuddyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.austintoddj.BrewBuddyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrewBuddy.app/BrewBuddy";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrewBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrewBuddy";
 			};
 			name = Debug;
 		};
-		2AEC28001ECBFBCD001D533A /* Release */ = {
+		AA00000100000000000000C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = BrewBuddyTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.austintoddj.BrewBuddyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrewBuddy.app/BrewBuddy";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrewBuddy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BrewBuddy";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AEC27D91ECBFBCD001D533A /* Build configuration list for PBXProject "BrewBuddy" */ = {
+		AA0000010000000000000080 /* Build configuration list for PBXNativeTarget "BrewBuddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AEC27F91ECBFBCD001D533A /* Debug */,
-				2AEC27FA1ECBFBCD001D533A /* Release */,
+				AA00000100000000000000B0 /* Debug */,
+				AA00000100000000000000B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AEC27FB1ECBFBCD001D533A /* Build configuration list for PBXNativeTarget "BrewBuddy" */ = {
+		AA0000010000000000000081 /* Build configuration list for PBXNativeTarget "BrewBuddyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AEC27FC1ECBFBCD001D533A /* Debug */,
-				2AEC27FD1ECBFBCD001D533A /* Release */,
+				AA00000100000000000000C0 /* Debug */,
+				AA00000100000000000000C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AEC27FE1ECBFBCD001D533A /* Build configuration list for PBXNativeTarget "BrewBuddyTests" */ = {
+		AA0000010000000000000082 /* Build configuration list for PBXProject "BrewBuddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AEC27FF1ECBFBCD001D533A /* Debug */,
-				2AEC28001ECBFBCD001D533A /* Release */,
+				AA00000100000000000000A0 /* Debug */,
+				AA00000100000000000000A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2AEC27D61ECBFBCD001D533A /* Project object */;
+	rootObject = AA0000010000000000000010 /* Project object */;
 }
