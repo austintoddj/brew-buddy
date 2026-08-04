@@ -1,0 +1,90 @@
+name: tests
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - develop
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ios:
+    name: Build & test (iOS Simulator)
+    runs-on: macos-15
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode.app
+
+      - name: Show toolchain
+        run: |
+          xcodebuild -version
+          xcrun simctl list devices available | head -40
+
+      - name: Resolve simulator destination
+        id: dest
+        run: |
+          # Prefer any available iPhone simulator id so CI survives device renames
+          # (e.g. iPhone 16 → iPhone 17). Fall back to generic destination.
+          DEST_ID=$(
+            xcodebuild -project BrewBuddy.xcodeproj -scheme BrewBuddy -showdestinations 2>/dev/null \
+              | grep 'platform:iOS Simulator' \
+              | grep 'name:iPhone' \
+              | grep -oE 'id:[^,}+]+' \
+              | head -1 \
+              | cut -d: -f2
+          )
+          if [ -n "$DEST_ID" ]; then
+            echo "destination=platform=iOS Simulator,id=${DEST_ID}" >> "$GITHUB_OUTPUT"
+            echo "Using simulator id=${DEST_ID}"
+          else
+            echo "destination=generic/platform=iOS Simulator" >> "$GITHUB_OUTPUT"
+            echo "No iPhone simulator id found; using generic destination"
+          fi
+
+      - name: Build
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project BrewBuddy.xcodeproj \
+            -scheme BrewBuddy \
+            -configuration Debug \
+            -destination "${{ steps.dest.outputs.destination }}" \
+            -derivedDataPath build/DerivedData \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+
+      - name: Test
+        run: |
+          set -o pipefail
+          xcodebuild \
+            -project BrewBuddy.xcodeproj \
+            -scheme BrewBuddy \
+            -configuration Debug \
+            -destination "${{ steps.dest.outputs.destination }}" \
+            -derivedDataPath build/DerivedData \
+            -resultBundlePath build/TestResults.xcresult \
+            -enableCodeCoverage YES \
+            CODE_SIGNING_ALLOWED=NO \
+            test
+
+      - name: Upload xcresult
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: build/TestResults.xcresult
+          if-no-files-found: ignore
+          retention-days: 14
